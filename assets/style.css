@@ -1,0 +1,213 @@
+  @import url('https://fonts.cdnfonts.com/css/montreal');
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Montreal', sans-serif;
+ }
+body{
+	overflow-x: hidden !important;
+	/*overflow: hidden !important;*/
+	background: #1E1E1E;
+    
+}
+html {
+    overflow-x: hidden !important;
+}
+                        
+
+/*.black-bg {
+    background: #1E1E1E;
+    
+}*/
+.row {
+    display: flex;
+}
+.row.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px;
+    border-bottom: 1px solid #A0A4AC;
+}
+.logotextonly p {
+    font-size: 16px;
+    color: #ffffffc2;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-left: 18px;
+    border-left: 1px solid;
+}
+.logo-with-text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    padding-right: 18px;
+    width: 100%;
+    max-width: 24%;
+}
+.button-with-text {
+    display: flex;
+}
+.button-txt p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding-right: 30px;
+}
+button.get-start {
+    background: #254CDD;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.button-with-text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 92px 0px 10px;
+    background: #fff;
+    width: 100%;
+    max-width: 20%;
+    border-radius: 20px;
+}
+.mb-port-section {
+    background: #fff;
+    border-top: 1px solid #ECECEC;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 175px 0px;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.row.footer-row {
+    box-shadow: 0px -39.1875px 15.4375px rgba(102, 120, 255, 0.01), 0px -21.375px 13.0625px rgba(102, 120, 255, 0.05), 0px -9.5px 9.5px rgba(102, 120, 255, 0.09), 0px -2.375px 5.9375px rgba(102, 120, 255, 0.1), 0px 0px 0px rgba(102, 120, 255, 0.1);
+}
+button.start-btn {
+    background: #254CDD;
+    padding: 13px 30px;
+    border-radius: 8px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    border: unset;
+}
+p.footer-txt {
+    font-size: 16px;
+    color: #020617;
+    font-weight: 700;
+}
+@media only screen and (max-width: 1440px) {
+	.start-section {
+    padding: 50px 0px 10px;
+    max-width: 25%;
+}
+.mb-port-section{
+	padding: 120px 0px;
+}
+button.start-btn {
+    padding: 10px 25px;
+    font-size: 25px;
+}
+} 
+
+@media only screen and (max-width: 1024px) {
+	.logotextonly p {
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding-left: 14px;
+}
+.logo {
+    padding-right: 11px;
+    width: 100%;
+    max-width: 29%;
+}
+.row.header-row{
+	align-items: center;
+}
+.start-section {
+    padding: 50px 0px 10px;
+    max-width: 30%;
+    font-size: 25px;
+}
+
+} 
+
+@media only screen and (max-width: 768px) {
+	.logo-with-text {
+   flex-wrap: wrap !important;
+    align-content: center;
+    justify-content: flex-start;
+        align-items: flex-start;
+    flex-direction: column;
+}
+.logotextonly p {
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    border: unset;
+}
+.button-txt p {
+    padding-right: 21px;
+}
+button.get-start {
+    padding: 12px 11px;
+    font-size: 14px;
+}
+.row.header-row {
+    align-items: center;
+}
+.row.header-row {
+    padding: 20px;
+}
+.start-section {
+   padding: 35px 0px 10px;
+    max-width: 40%;
+    font-size: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+	.start-section {
+   padding: 35px 0px 10px;
+    max-width: 46%;
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 555px) {
+	.start-section {
+    padding: 35px 0px 10px;
+    max-width: 60%;
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 450px) {
+	.start-section {
+    padding: 35px 0px 10px;
+    max-width: 76%;
+    font-size: 15px;
+}
+}
