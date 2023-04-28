@@ -1,4 +1,4 @@
-  @import url('https://fonts.cdnfonts.com/css/montreal');
+@import url('https://fonts.cdnfonts.com/css/montreal');
 
 *{
 	margin: 0;
@@ -77,7 +77,6 @@ button.get-start {
     justify-content: center;
     align-items: center;
 }
-
 .start-section {
     position: absolute;
     left: 50%;
@@ -90,6 +89,38 @@ button.get-start {
     max-width: 20%;
     border-radius: 20px;
 }
+.start-section-second {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* padding: 92px 0px 10px; */
+    /* padding: 10px; */
+    background: #fff;
+    width: 100%;
+    max-width: 20%;
+    border-radius: 20px;
+}
+.your-bal{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #64748B;
+    font-family: 'Montreal', sans-serif;
+
+}
+.price-us {
+    font-size: 46px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Montreal', sans-serif;
+}
+.price-us-usd{
+    font-size: 28px;
+    font-weight: 500;
+    color: #667085;
+}
 .mb-port-section {
     background: #fff;
     border-top: 1px solid #ECECEC;
@@ -97,17 +128,89 @@ button.get-start {
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 110px 0px;
+    padding: 175px 0px;
+}
+.mb-port-mid-section{
+    padding: 0px 18px;
+}
+.mb-port-section-portfolio{
+    background: #fff;
+    border-top: 1px solid #ECECEC;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.portfolio-top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+    width: 100%;
+}
+.portfolio-top-section span{
+    background: #DDF9EA;
+    border-radius: 19px;
+    padding: 9px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montreal', sans-serif;
+}
+img.f_img {
+    width: 100%;
+    max-width: 70%;
+}
+.token-detail{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1.18367px solid #F2F4F7;
+    padding: 08px 0px;
+}
+.token-detail .token-text{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montreal', sans-serif;
+}
+.img-with-text{
+    display: flex;
+    align-items: center;
+}
+.img-with-text span{
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.price div{
+    text-align: right;
+}
+.price .first{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montreal', sans-serif;
+}
+.price .second{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 3px 0px;
+    color: #667085;
 }
 .footer-row {
     display: flex;
     justify-content: space-between;
     padding: 30px;
 }
+img.s_img {
+    width: 100%;
+    max-width: 80%;
+}
 .row.footer-row {
     box-shadow: 0px -39.1875px 15.4375px rgba(102, 120, 255, 0.01), 0px -21.375px 13.0625px rgba(102, 120, 255, 0.05), 0px -9.5px 9.5px rgba(102, 120, 255, 0.09), 0px -2.375px 5.9375px rgba(102, 120, 255, 0.1), 0px 0px 0px rgba(102, 120, 255, 0.1);
 }
-button.start-btn {
+
+a.btn-start {
     background: #254CDD;
     padding: 13px 30px;
     border-radius: 8px;
@@ -115,7 +218,11 @@ button.start-btn {
     color: #fff;
     font-weight: 500;
     border: unset;
+    text-decoration: none;
+    font-family: 'Montreal', sans-serif;
+
 }
+
 p.footer-txt {
     font-size: 16px;
     color: #020617;
@@ -127,11 +234,15 @@ p.footer-txt {
     max-width: 25%;
 }
 .mb-port-section{
-	padding: 80px 0px;
+	padding: 120px 0px;
 }
 button.start-btn {
     padding: 10px 25px;
     font-size: 25px;
+}
+.start-section-second {
+    padding: 50px 0px 10px;
+    max-width: 25%;
 }
 } 
 
@@ -153,6 +264,10 @@ button.start-btn {
     padding: 50px 0px 10px;
     max-width: 30%;
     font-size: 25px;
+}
+.start-section-second {
+    padding: 50px 0px 10px;
+    max-width: 30%;
 }
 
 } 
@@ -189,12 +304,20 @@ button.get-start {
     max-width: 40%;
     font-size: 20px;
 }
+.start-section-second {
+    padding: 50px 0px 10px;
+    max-width: 40%;
+}
 }
 @media only screen and (max-width: 600px) {
 	.start-section {
    padding: 35px 0px 10px;
     max-width: 46%;
     font-size: 15px;
+}
+.start-section-second {
+    padding: 50px 0px 10px;
+    max-width: 46%;
 }
 }
 @media only screen and (max-width: 555px) {
@@ -203,11 +326,19 @@ button.get-start {
     max-width: 60%;
     font-size: 15px;
 }
+.start-section-second {
+    padding: 50px 0px 10px;
+    max-width: 60%;
+}
 }
 @media only screen and (max-width: 450px) {
 	.start-section {
     padding: 35px 0px 10px;
     max-width: 76%;
     font-size: 15px;
+}
+.start-section-second {
+    padding: 50px 0px 10px;
+    max-width: 76%;
 }
 }
